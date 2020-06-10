@@ -649,6 +649,7 @@ void MainWindow::on_pushButton_6_clicked()
 void MainWindow::show_supperts_num(int num)
 {
     //ui->spinBox_4->setValue(num);
+
 }
 
 //存储每个mesh周围的meshs
