@@ -640,6 +640,8 @@ void MainWindow::load_sample_models()
 //计算支撑位置并生成
 void MainWindow::on_pushButton_6_clicked()
 {
+    bool draw_tree=ui->tree_support_radio->isChecked();
+    ui->openGLWidget->set_draw_tree(draw_tree);
     ui->openGLWidget->set_draw_suppports_true(zoom_now);
 }
 

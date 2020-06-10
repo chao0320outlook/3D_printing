@@ -175,6 +175,8 @@ public:
     bool check_in_triangle(const float &x,const float &y,int num);
     void check_supperts_point(const float &x,const float &y,QVector<int>&ares);
 
+    void set_draw_tree(bool dr){draw_tree_suppports=dr;}
+
     void Calculate_tree_supports();
     void build_tree_supports();
     void dfs(TreeNode_Point *root);
